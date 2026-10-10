@@ -17,6 +17,24 @@ connectDB().then(connected => {
   }
 });
 
+// Root endpoint health check
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Backend is running successfully',
+    status: 'online',
+    timestamp: new Date().toISOString(),
+    healthCheck: '/api/health'
+  });
+});
+
+// Route normalization middleware: auto-prefix with /api if omitted by client
+app.use((req, res, next) => {
+  if (req.path !== '/' && !req.path.startsWith('/api')) {
+    req.url = `/api${req.url}`;
+  }
+  next();
+});
+
 // Health check with DB status
 app.get('/api/health', (req, res) => {
   res.json({

@@ -306,6 +306,62 @@
       "history": [],
       "facultyFeedback": "New student account — awaiting baseline academic profile submission.",
       "weeklyTests": []
+    },
+    "u1791554241588": {
+      "studentId": "u1791554241588",
+      "hasProvidedData": false,
+      "academics": {
+        "cgpa": 0,
+        "marksPct": 0,
+        "activeBacklogs": 0,
+        "completedCredits": 0,
+        "totalCredits": 140
+      },
+      "attendance": {
+        "attendancePct": 0,
+        "lecturesAttended": 0,
+        "totalLectures": 0,
+        "status": "safe"
+      },
+      "lms": {
+        "assignmentCompletionPct": 0,
+        "weeklyLogins": 0,
+        "weeklyStudyHours": 0,
+        "forumDiscussionsScore": 0
+      },
+      "engagement": {
+        "eventsAttended": 0,
+        "hackathonsCount": 0,
+        "certificationsCount": 0,
+        "extracurricularScore": 0
+      },
+      "placement": {
+        "aptitudeScore": 0,
+        "codingChallengeScore": 0,
+        "mockInterviewScore": 0,
+        "readinessLevel": "not-ready"
+      },
+      "skillsAssessments": {
+        "dsaScore": 0,
+        "systemDesignScore": 0,
+        "coreCsScore": 0
+      },
+      "successScore": 0,
+      "riskLevel": "low",
+      "riskFlags": [
+        "No academic baseline data submitted yet. Enter your metrics to start tracking."
+      ],
+      "explainableFactors": [],
+      "futureYou": {
+        "currentScore": 0,
+        "projected3MonthScore": 0,
+        "statement": "Enter your metrics to generate your 3-month future trajectory.",
+        "targetMilestone": "Awaiting Initial Baseline Data",
+        "projections": []
+      },
+      "history": [],
+      "facultyFeedback": "New student account — awaiting baseline academic profile submission.",
+      "weeklyTests": []
     }
   },
   "streaks": {
