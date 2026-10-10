@@ -1,0 +1,689 @@
+{
+  "users": [
+    {
+      "_id": "6ac8ff3afeff766578edbc19",
+      "id": "u1791547064905",
+      "name": "Afreed Shaik",
+      "email": "afreedshaik1234@gmail.com",
+      "password": "123456789",
+      "role": "educator",
+      "batch": "Class of 2026 - CS-A",
+      "department": "Computer Science & Engineering",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "joinedAt": "2026-10-09",
+      "githubUsername": "afreedshaik-dev",
+      "githubConnected": false,
+      "bio": "Academic Advisor and Faculty Mentor",
+      "targetJobRole": "Software Engineer",
+      "__v": 0,
+      "createdAt": "2026-10-09T14:50:34.106Z",
+      "updatedAt": "2026-10-09T14:50:34.106Z"
+    },
+    {
+      "_id": "6ac8ff3afeff766578edbc1a",
+      "id": "u1791554241588",
+      "name": "andmin",
+      "email": "admin@university.edu",
+      "password": "12345678",
+      "role": "admin",
+      "batch": "Class of 2026 - CS-A",
+      "department": "Computer Science & Engineering",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "joinedAt": "2026-10-09",
+      "githubUsername": "andmin-dev",
+      "githubConnected": false,
+      "bio": "Aspiring Software Engineer & Tech Builder",
+      "targetJobRole": "Software Engineer",
+      "__v": 0,
+      "createdAt": "2026-10-09T14:50:34.106Z",
+      "updatedAt": "2026-10-09T14:50:34.106Z"
+    },
+    {
+      "_id": "6ac930c73c18f930199dc75c",
+      "id": "u1791570119026",
+      "__v": 0,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "batch": "Class of 2026 - CS-A",
+      "bio": "Aspiring Software Engineer & Tech Builder",
+      "createdAt": "2026-10-09T18:21:59.049Z",
+      "department": "Computer Science & Engineering",
+      "email": "rizwannnnnnnnnnn@gmail.com",
+      "githubConnected": true,
+      "githubUsername": "rizawan-dev",
+      "joinedAt": "2026-10-09",
+      "name": "rizawan",
+      "password": "password123",
+      "role": "student",
+      "segmentation": "all-round-leader",
+      "targetJobRole": "Full-Stack Software Engineer",
+      "updatedAt": "2026-10-09T18:21:59.049Z"
+    },
+    {
+      "_id": "6ac93f8b3c18f930199dc77b",
+      "id": "u1791573898826",
+      "__v": 0,
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "batch": "Class of 2026 - CS-A",
+      "bio": "Academic Advisor and Faculty Mentor",
+      "createdAt": "2026-10-09T19:24:58.837Z",
+      "department": "Computer Science & Engineering",
+      "email": "afrozshaik@gmail.com",
+      "githubConnected": false,
+      "githubUsername": "afrozshaik-dev",
+      "joinedAt": "2026-10-09",
+      "name": "Afroz Shaik",
+      "password": "098765",
+      "role": "educator",
+      "targetJobRole": "Software Engineer",
+      "updatedAt": "2026-10-09T19:24:58.837Z"
+    },
+    {
+      "_id": "6ac941ee3c18f930199dc77f",
+      "id": "u1791574509734",
+      "__v": 0,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "batch": "Class of 2026 - CS-A",
+      "bio": "Aspiring Software Engineer & Tech Builder",
+      "createdAt": "2026-10-09T19:35:09.981Z",
+      "department": "Computer Science & Engineering",
+      "email": "affu123@gmail.com",
+      "githubConnected": false,
+      "githubUsername": "affu-dev",
+      "joinedAt": "2026-10-09",
+      "name": "affu",
+      "password": "123456",
+      "role": "student",
+      "segmentation": "all-round-leader",
+      "targetJobRole": "Full-Stack Software Engineer",
+      "updatedAt": "2026-10-09T19:35:09.981Z"
+    },
+    {
+      "_id": "6ac8ff3afeff766578edbc10",
+      "id": "u2",
+      "name": "Dr. Sarah Lin",
+      "email": "sarah.lin@university.edu",
+      "password": "password123",
+      "role": "educator",
+      "department": "Computer Science & Engineering",
+      "title": "Faculty Dean & Lead Academic Advisor",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "githubConnected": false,
+      "__v": 0,
+      "createdAt": "2026-10-09T14:50:34.105Z",
+      "updatedAt": "2026-10-09T14:50:34.105Z"
+    }
+  ],
+  "studentProfiles": {
+    "u1791570119026": {
+      "studentId": "u1791570119026",
+      "hasProvidedData": true,
+      "academics": {
+        "cgpa": 0,
+        "marksPct": 0,
+        "activeBacklogs": 0,
+        "completedCredits": 0,
+        "totalCredits": 140
+      },
+      "attendance": {
+        "attendancePct": 0,
+        "lecturesAttended": 0,
+        "totalLectures": 180,
+        "status": "critical"
+      },
+      "lms": {
+        "assignmentCompletionPct": 0,
+        "weeklyLogins": 0,
+        "weeklyStudyHours": 0,
+        "forumDiscussionsScore": 0
+      },
+      "engagement": {
+        "eventsAttended": 0,
+        "hackathonsCount": 0,
+        "certificationsCount": 0,
+        "extracurricularScore": 0
+      },
+      "placement": {
+        "aptitudeScore": 0,
+        "codingChallengeScore": 0,
+        "mockInterviewScore": 0,
+        "readinessLevel": "not-ready"
+      },
+      "skillsAssessments": {
+        "dsaScore": 0,
+        "systemDesignScore": 0,
+        "coreCsScore": 0
+      },
+      "successScore": 0,
+      "riskLevel": "high",
+      "riskFlags": [
+        "Low study hours (0 hrs logged this week)"
+      ],
+      "explainableFactors": [],
+      "futureYou": {
+        "currentScore": 0,
+        "projected3MonthScore": 6.2,
+        "statement": "If you maintain this pace, in 3 months your score will reach 6.2 (Target Trajectory)",
+        "targetMilestone": "Placement Readiness for Full-Stack Software Engineer",
+        "projections": [
+          {
+            "month": "Month 1",
+            "score": 2
+          },
+          {
+            "month": "Month 2",
+            "score": 4
+          },
+          {
+            "month": "Month 3",
+            "score": 6
+          }
+        ]
+      },
+      "history": [
+        {
+          "month": "Oct",
+          "score": 0,
+          "academics": 0,
+          "attendance": 0,
+          "placement": 0
+        }
+      ],
+      "facultyFeedback": "New student account — awaiting baseline academic profile submission.",
+      "weeklyTests": []
+    },
+    "u1791573898826": {
+      "studentId": "u1791573898826",
+      "hasProvidedData": false,
+      "academics": {
+        "cgpa": 0,
+        "marksPct": 0,
+        "activeBacklogs": 0,
+        "completedCredits": 0,
+        "totalCredits": 140
+      },
+      "attendance": {
+        "attendancePct": 0,
+        "lecturesAttended": 0,
+        "totalLectures": 0,
+        "status": "safe"
+      },
+      "lms": {
+        "assignmentCompletionPct": 0,
+        "weeklyLogins": 0,
+        "weeklyStudyHours": 0,
+        "forumDiscussionsScore": 0
+      },
+      "engagement": {
+        "eventsAttended": 0,
+        "hackathonsCount": 0,
+        "certificationsCount": 0,
+        "extracurricularScore": 0
+      },
+      "placement": {
+        "aptitudeScore": 0,
+        "codingChallengeScore": 0,
+        "mockInterviewScore": 0,
+        "readinessLevel": "not-ready"
+      },
+      "skillsAssessments": {
+        "dsaScore": 0,
+        "systemDesignScore": 0,
+        "coreCsScore": 0
+      },
+      "successScore": 0,
+      "riskLevel": "low",
+      "riskFlags": [
+        "No academic baseline data submitted yet. Enter your metrics to start tracking."
+      ],
+      "explainableFactors": [],
+      "futureYou": {
+        "currentScore": 0,
+        "projected3MonthScore": 0,
+        "statement": "Enter your metrics to generate your 3-month future trajectory.",
+        "targetMilestone": "Awaiting Initial Baseline Data",
+        "projections": []
+      },
+      "history": [],
+      "facultyFeedback": "New student account — awaiting baseline academic profile submission.",
+      "weeklyTests": [],
+      "_id": "6ac9555c3c18f930199dc7a6",
+      "__v": 0,
+      "createdAt": "2026-10-09T20:58:01.352Z",
+      "updatedAt": "2026-10-09T20:58:01.352Z"
+    },
+    "u1791574509734": {
+      "studentId": "u1791574509734",
+      "hasProvidedData": false,
+      "academics": {
+        "cgpa": 0,
+        "marksPct": 0,
+        "activeBacklogs": 0,
+        "completedCredits": 0,
+        "totalCredits": 140
+      },
+      "attendance": {
+        "attendancePct": 0,
+        "lecturesAttended": 0,
+        "totalLectures": 0,
+        "status": "safe"
+      },
+      "lms": {
+        "assignmentCompletionPct": 0,
+        "weeklyLogins": 0,
+        "weeklyStudyHours": 0,
+        "forumDiscussionsScore": 0
+      },
+      "engagement": {
+        "eventsAttended": 0,
+        "hackathonsCount": 0,
+        "certificationsCount": 0,
+        "extracurricularScore": 0
+      },
+      "placement": {
+        "aptitudeScore": 0,
+        "codingChallengeScore": 0,
+        "mockInterviewScore": 0,
+        "readinessLevel": "not-ready"
+      },
+      "skillsAssessments": {
+        "dsaScore": 0,
+        "systemDesignScore": 0,
+        "coreCsScore": 0
+      },
+      "successScore": 0,
+      "riskLevel": "low",
+      "riskFlags": [
+        "No academic baseline data submitted yet. Enter your metrics to start tracking."
+      ],
+      "explainableFactors": [],
+      "futureYou": {
+        "currentScore": 0,
+        "projected3MonthScore": 0,
+        "statement": "Enter your metrics to generate your 3-month future trajectory.",
+        "targetMilestone": "Awaiting Initial Baseline Data",
+        "projections": []
+      },
+      "history": [],
+      "facultyFeedback": "New student account — awaiting baseline academic profile submission.",
+      "weeklyTests": []
+    }
+  },
+  "streaks": {
+    "u1791570119026": {
+      "_id": "6ac930c73c18f930199dc75f",
+      "studentId": "u1791570119026",
+      "__v": 0,
+      "createdAt": "2026-10-09T18:21:59.073Z",
+      "currentStreak": 1,
+      "freezeTokens": 1,
+      "freezeTokensUsedTotal": 0,
+      "lastCheckinDate": "2026-10-09T18:21:59.026Z",
+      "longestStreak": 1,
+      "milestones": [
+        {
+          "days": 7,
+          "title": "Spark Initiate",
+          "achieved": false,
+          "date": null,
+          "icon": "Flame"
+        },
+        {
+          "days": 30,
+          "title": "Blaze Warrior",
+          "achieved": false,
+          "date": null,
+          "icon": "Zap"
+        },
+        {
+          "days": 100,
+          "title": "Supernova Master",
+          "achieved": false,
+          "date": null,
+          "icon": "Sun"
+        }
+      ],
+      "streakProtectionActive": true,
+      "todayCheckedIn": true,
+      "updatedAt": "2026-10-09T18:21:59.073Z",
+      "usualLoginTime": "09:30",
+      "weeklyCheckins": [
+        {
+          "day": "Mon",
+          "active": true
+        },
+        {
+          "day": "Tue",
+          "active": false
+        },
+        {
+          "day": "Wed",
+          "active": false
+        },
+        {
+          "day": "Thu",
+          "active": false
+        },
+        {
+          "day": "Fri",
+          "active": false
+        },
+        {
+          "day": "Sat",
+          "active": false
+        },
+        {
+          "day": "Sun",
+          "active": false
+        }
+      ]
+    },
+    "u1791574509734": {
+      "_id": "6ac941f83c18f930199dc782",
+      "studentId": "u1791574509734",
+      "__v": 0,
+      "createdAt": "2026-10-09T19:35:10.098Z",
+      "currentStreak": 0,
+      "freezeTokens": 1,
+      "freezeTokensUsedTotal": 0,
+      "lastCheckinDate": null,
+      "longestStreak": 0,
+      "milestones": [
+        {
+          "days": 7,
+          "title": "Spark Initiate",
+          "achieved": false,
+          "date": null,
+          "icon": "Flame"
+        },
+        {
+          "days": 30,
+          "title": "Blaze Warrior",
+          "achieved": false,
+          "date": null,
+          "icon": "Zap"
+        },
+        {
+          "days": 100,
+          "title": "Supernova Master",
+          "achieved": false,
+          "date": null,
+          "icon": "Sun"
+        }
+      ],
+      "streakProtectionActive": true,
+      "todayCheckedIn": false,
+      "updatedAt": "2026-10-09T19:35:10.098Z",
+      "usualLoginTime": "09:30",
+      "weeklyCheckins": [
+        {
+          "day": "Mon",
+          "active": false
+        },
+        {
+          "day": "Tue",
+          "active": false
+        },
+        {
+          "day": "Wed",
+          "active": false
+        },
+        {
+          "day": "Thu",
+          "active": false
+        },
+        {
+          "day": "Fri",
+          "active": false
+        },
+        {
+          "day": "Sat",
+          "active": false
+        },
+        {
+          "day": "Sun",
+          "active": false
+        }
+      ]
+    }
+  },
+  "rewards": {
+    "catalog": [
+      {
+        "id": "rew-1",
+        "title": "Streak Freeze Token",
+        "category": "Safety",
+        "points": 150,
+        "description": "Protects your active streak for 24 hours if you miss a day due to exams or travel.",
+        "icon": "ShieldAlert",
+        "badge": "Essential"
+      },
+      {
+        "id": "rew-2",
+        "title": "Verified Builder Pro Certificate",
+        "category": "Credentials",
+        "points": 300,
+        "description": "Official cryptographic PDF certification verifying voice project defense for recruiters.",
+        "icon": "Award",
+        "badge": "Recruiter Ready"
+      },
+      {
+        "id": "rew-3",
+        "title": "1-on-1 Placement Interview Simulator Pass",
+        "category": "Placement",
+        "points": 400,
+        "description": "Priority 45-minute live technical interview simulation with FAANG panel alumni.",
+        "icon": "Briefcase",
+        "badge": "Career Boost"
+      },
+      {
+        "id": "rew-4",
+        "title": "DSA Intensive Bootcamp Pass",
+        "category": "Learning",
+        "points": 350,
+        "description": "Unlocks curated masterclasses on dynamic programming and graph algorithms.",
+        "icon": "Sparkles",
+        "badge": "Skills"
+      },
+      {
+        "id": "rew-5",
+        "title": "National Hackathon VIP Priority Entry",
+        "category": "Events",
+        "points": 500,
+        "description": "Guaranteed team sponsor fast-track pass for the Annual Tech Summit Hackathon.",
+        "icon": "Ticket",
+        "badge": "Exclusive"
+      }
+    ],
+    "userPoints": {
+      "u1791570119026": {
+        "_id": "6ac930c73c18f930199dc75d",
+        "studentId": "u1791570119026",
+        "__v": 0,
+        "createdAt": "2026-10-09T18:21:59.074Z",
+        "currentBalance": 100,
+        "redeemedHistory": [],
+        "totalEarned": 100,
+        "updatedAt": "2026-10-09T18:21:59.074Z"
+      },
+      "u1791574509734": {
+        "_id": "6ac941f03c18f930199dc780",
+        "studentId": "u1791574509734",
+        "__v": 0,
+        "createdAt": "2026-10-09T19:35:10.098Z",
+        "currentBalance": 0,
+        "redeemedHistory": [],
+        "totalEarned": 0,
+        "updatedAt": "2026-10-09T19:35:10.098Z"
+      }
+    }
+  },
+  "leaderboard": {
+    "students": []
+  },
+  "skillDNA": {},
+  "githubProjects": [],
+  "ideas": [
+    {
+      "id": "idea-1791539556441",
+      "title": "Interactive Coding Playground in Proof-of-Build",
+      "problem": "Students have to switch windows to test small snippets during the oral defense.",
+      "solution": "Embed an in-browser sandbox runner with WebAssembly.",
+      "expectedBenefit": "Improves student confidence by 40%.",
+      "category": "Placement & Jobs",
+      "impactLevel": "High",
+      "attachmentName": null,
+      "isAnonymous": false,
+      "submittedBy": {
+        "id": "u1",
+        "name": "Alex Mercer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+        "role": "student"
+      },
+      "submittedAt": "2026-10-09T09:52:36.441Z",
+      "status": "Planned",
+      "adminFeedback": "Approved for Sprint 4 release.",
+      "upvotes": [
+        "u1",
+        "u3"
+      ],
+      "comments": [
+        {
+          "id": "c-1791539556471",
+          "userId": "u2",
+          "userName": "Dr. Sarah Lin",
+          "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "content": "Fantastic proposal! We could use WebContainer API.",
+          "createdAt": "2026-10-09T09:52:36.471Z"
+        }
+      ]
+    },
+    {
+      "id": "idea-1",
+      "title": "Automated GitHub Pull Request Webhooks for Streak Check-Ins",
+      "problem": "Active student coders frequently commit code every single day on GitHub but forget manual button check-ins on the web dashboard, risking long hard-earned streaks.",
+      "solution": "Add an automated GitHub webhook listener that awards daily check-in credit whenever a student pushes meaningful commits to any verified Proof-of-Build repository.",
+      "expectedBenefit": "Incentivizes real development habits, eliminates accidental streak loss for productive builders, and boosts platform engagement.",
+      "category": "Streak & Gamification",
+      "impactLevel": "High",
+      "attachmentName": "github_webhook_architecture.pdf",
+      "isAnonymous": false,
+      "submittedBy": {
+        "id": "u1",
+        "name": "Alex Mercer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+        "role": "student"
+      },
+      "submittedAt": "2026-10-06T10:30:00Z",
+      "status": "Planned",
+      "adminFeedback": "Approved by Faculty Committee. Scheduled for Sprint 3 alongside GitHub Sync API v2.",
+      "upvotes": [
+        "u1",
+        "u4",
+        "u5",
+        "u6",
+        "u2"
+      ],
+      "comments": [
+        {
+          "id": "c-1",
+          "userId": "u4",
+          "userName": "Elena Rostova",
+          "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+          "content": "Love this! I code every morning and sometimes forget to open the web tab until late at night.",
+          "createdAt": "2026-10-06T14:15:00Z"
+        },
+        {
+          "id": "c-2",
+          "userId": "u2",
+          "userName": "Dr. Sarah Lin",
+          "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "content": "Excellent pedagogical alignment. Rewarding verifiable GitHub activity reinforces professional software development standards.",
+          "createdAt": "2026-10-07T09:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "idea-2",
+      "title": "AI Voice Mock Interview Peer Practice Rooms",
+      "problem": "Students with high theoretical grades (e.g., Maya Patel) experience stage fright during high-stakes technical placement interviews.",
+      "solution": "Provide peer audio rooms where two students can take turns conducting AI-guided voice project interviews with real-time scoring rubrics.",
+      "expectedBenefit": "Dramatically reduces placement anxiety and elevates cohort mock interview scores by 20%+.",
+      "category": "Voice Interview",
+      "impactLevel": "Critical",
+      "attachmentName": null,
+      "isAnonymous": false,
+      "submittedBy": {
+        "id": "u5",
+        "name": "Maya Patel",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+        "role": "student"
+      },
+      "submittedAt": "2026-10-07T16:45:00Z",
+      "status": "In Progress",
+      "adminFeedback": "Under active development. Prototyping audio WebRTC rooms with live SpeechRecognition telemetry.",
+      "upvotes": [
+        "u1",
+        "u3",
+        "u5",
+        "u6"
+      ],
+      "comments": [
+        {
+          "id": "c-3",
+          "userId": "u1",
+          "userName": "Alex Mercer",
+          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "content": "Count me in as a peer interviewer. Speaking architecture decisions aloud builds muscle memory.",
+          "createdAt": "2026-10-08T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "idea-3",
+      "title": "SMS / WhatsApp Emergency Warning for Attendance Debarment Threshold",
+      "problem": "Students nearing the 75% critical attendance threshold may not check LMS daily and only find out when debarred from exams.",
+      "solution": "Send automated mobile alerts to students whenever attendance in any single core subject drops below 75%.",
+      "expectedBenefit": "Zero unpreventable exam debarments across engineering departments.",
+      "category": "Academic Analytics",
+      "impactLevel": "Critical",
+      "attachmentName": null,
+      "isAnonymous": true,
+      "submittedBy": {
+        "id": "u3",
+        "name": "Anonymous Student",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+        "role": "student"
+      },
+      "submittedAt": "2026-10-08T09:10:00Z",
+      "status": "Under Review",
+      "adminFeedback": "Reviewing SMS gateway integration with university telecom policy.",
+      "upvotes": [
+        "u3",
+        "u6",
+        "u1"
+      ],
+      "comments": []
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1791539556480",
+      "userId": "u1",
+      "title": "Idea Status Updated: \"Interactive Coding Playground in Pr...\"",
+      "message": "Your idea was updated to \"Planned\" by Dr. Sarah Lin: \"Approved for Sprint 4 release.\"",
+      "type": "idea_status",
+      "timestamp": "2026-10-09T09:52:36.480Z",
+      "read": false
+    },
+    {
+      "id": "notif-1",
+      "userId": "u1",
+      "title": "Idea Status Updated: 'Automated GitHub PR Webhooks'",
+      "message": "Your idea has been moved to 'Planned' by Dr. Sarah Lin with note: 'Approved by Faculty Committee.'",
+      "type": "idea_status",
+      "timestamp": "2026-10-08T12:00:00Z",
+      "read": false
+    }
+  ],
+  "weeklyTests": {}
+}
